@@ -1,0 +1,17 @@
+
+### На компьютере должна быть установлена Anaconda
+
+### Создаем и активируем окружение
+# conda create --clone base -n .venv-medic-ml
+conda activate .venv-medic-ml
+
+### Устанавливаем необходимые библиотеки
+python -m pip install --upgrade pip
+# pip install --user --upgrade flask flask_sqlalchemy
+
+### Запускаем проект
+cd Projects\_git\
+# git clone https://github.com/giparshakov/medic-ml.git
+cd Projects\_git\medic-ml\
+
+python index.py
